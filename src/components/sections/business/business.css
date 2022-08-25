@@ -43,6 +43,9 @@
 .bus__title {
     width: 452px;
     height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-style: italic;
     font-family: "Stag-Sans", sans-serif;
