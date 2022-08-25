@@ -1,5 +1,5 @@
 import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Layout from "../components/layout/layout"
 import Main from "../components/main/main"
@@ -12,7 +12,6 @@ const IndexPage = () => (
       <Footer />
     </Layout>
 )
-
 
 export default IndexPage
 

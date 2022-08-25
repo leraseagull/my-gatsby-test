@@ -3,7 +3,6 @@ import React from 'react';
 import './business.css';
 import vs from '../../../images/vs.png';
 import rocket from '../../../images/rocket.png';
-import {Button} from "bootstrap";
 import vk from '../../../images/vk.svg';
 import youtube from '../../../images/youtube.svg';
 import yaMuz from '../../../images/ya-muz.svg';
@@ -27,7 +26,7 @@ const Business = () => {
                         <p className="bus__text">Бизнес-шоу, в котором общаемся с экспертами digital-маркетинга и
                             руководителями продаж о том, как совместно достигать
                             потрясающих результатов. </p>
-                        <button type="button" className="btn bus__btn">Подписаться</button>
+                        <button type="button" className="bus__btn">Подписаться</button>
                         <img src={rocket} alt="rocket icon" className="bus__rocket"/>
                     </div>
                     <div className="bus__low-content">
@@ -53,7 +52,7 @@ const Business = () => {
                     <img src={seo} alt="seo" className="bus__photo-seo"/>
                     <div className="image-group">
                         <img src={man} alt="man" className="image-man"/>
-                        <p className="fst-italic text-decoration-underline new-release">новый выпуск</p>
+                        <p className="new-release">новый выпуск</p>
                         <iframe className="bus__video" src="https://www.youtube.com/embed/2c6LbMLsRiM"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -31,6 +31,8 @@
     color: #FF7C16;
     font-size: 28.5px;
     margin-top: 38px;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .bus__video {
@@ -93,10 +95,20 @@
 .bus__btn {
     background-color: #FF7C16;
     color: #fff;
+    margin-top: 30px;
     font-size: 18px;
     border-radius: 35px;
     padding: 15px 40px;
     margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    width: 339px;
+}
+
+
+.bus__btn:active {
+    background-color: #FFFFFF;
+    color: #070718;
 }
 
 .bus__rocket {
@@ -202,6 +214,10 @@
     .bus__low-content {
         flex-direction: column;
         align-items: center;
+    }
+
+    .bus__btn {
+        width: 200px;
     }
 
     .bus__photo {

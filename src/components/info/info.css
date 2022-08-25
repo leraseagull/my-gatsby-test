@@ -30,6 +30,13 @@
     font-size: 18px;
     border-radius: 35px;
     padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.info__btn:active {
+    background-color: #FFFFFF;
+    color: #070718;
 }
 
 .info__btn-outline {
@@ -38,6 +45,13 @@
     padding: 15px 40px;
     font-size: 18px;
     font-family: "OpenSans", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.info__btn-outline:active {
+    background-color: #FFFFFF;
+    color: #070718;
 }
 
 .info__img {

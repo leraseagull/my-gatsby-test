@@ -78,8 +78,13 @@
 
 .rel__soc-med-container {
     display: flex;
+    align-items: center;
 }
 
+.rel__flex-content {
+    display: flex;
+    justify-content: space-between;
+}
 .rel__item {
     display: grid;
     grid-template-columns: 36px 154px 148px;

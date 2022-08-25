@@ -25,7 +25,7 @@ const Releases = () => {
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen/>
-                    <div className="d-flex justify-content-between">
+                    <div className="rel__flex-content">
                     <div className="rel__soc-med-container">
                         <p className="rel__social-media-title">Поделиться:</p>
                         <div className="rel__social-media">

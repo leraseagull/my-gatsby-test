@@ -36,7 +36,7 @@ const Footer = () => {
 
                 <div className="footer__form">
                     <input type="email" className="footer__input" placeholder="Введите ваш e-mail"/>
-                    <button type="submit" className="btn me-2 footer__btn">Подписаться</button>
+                    <button type="submit" className="footer__btn">Подписаться</button>
                 </div>
                 </div>
                 <img src={starPink} alt="star white" className="footer__star"/>
