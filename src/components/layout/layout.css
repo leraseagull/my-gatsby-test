@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../../fonts/OpenSansRegular.eot");
+  src: url("../../fonts/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/OpenSansRegular.woff") format("woff"),
+  url("../../fonts/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Stag-Sans";
+  src: url("../../fonts/StagSansLCTT-Medium.woff"),
+        url("../../fonts/StagSansLCTT-Medium.woff2"),
+        url("../../fonts/Stag-Sans-Medium-Web.ttf"),
+        url("../../fonts/StagSansLCTT-Medium.eot");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: "Stag-Sans", open-sans, sans-serif;
+  overflow-y: scroll;
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Stag-Sans", open-sans, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.page {
+  max-width: 1920px;
+  min-width: 320px;
+  padding: 80px 30px 80px 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}

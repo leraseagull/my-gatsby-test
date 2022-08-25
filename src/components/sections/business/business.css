@@ -1,0 +1,282 @@
+.bus__container {
+    padding: 151px 227px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bus__first-content {
+    display: flex;
+    align-items: center;
+}
+
+.bus__second-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bus__third-content {
+    display: flex;
+    margin-left: 63px;
+}
+
+.bus__general {
+    display: flex;
+}
+
+
+.new-release {
+    color: #FF7C16;
+    font-size: 28.5px;
+    margin-top: 38px;
+}
+
+.bus__video {
+    height: 235px;
+    border-radius: 20px;
+}
+
+.bus__title {
+    width: 452px;
+    height: 98px;
+    text-align: center;
+    font-style: italic;
+    font-family: "Stag-Sans", sans-serif;
+    background-color: black;
+    border-radius: 84px;
+    font-size: 64px;
+    color: #FED16E;
+    margin-right: 17px;
+}
+
+.bus__img-icon {
+    grid-area: 1 / 2 / 2 / 5;
+    width: 876px;
+}
+
+.bus__description {
+    position: relative;
+    border: 3px solid #FFFFFF;
+    height: 276px;
+    width: 580px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 34px 40px 0;
+    font-family: "OpenSans", sans-serif;
+}
+
+.bus__text {
+    color: #070718;
+}
+
+.bus__social-media-text {
+    font-family: "OpenSans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 36px;
+}
+
+.bus__social-media-icons {
+    display: flex;
+}
+
+.bus__icon {
+    margin-right: 10px;
+}
+
+.bus__icon:last-child {
+    margin-right: 0;
+}
+
+.bus__btn {
+    background-color: #FF7C16;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 35px;
+    padding: 15px 40px;
+    margin-right: 10px;
+}
+
+.bus__rocket {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+.bus__photo {
+    width: 232px;
+    margin-top: 46px;
+    margin-left: 58px;
+}
+.bus__low-content {
+    display: flex;
+}
+
+.image-man {
+    width: 419px;
+}
+
+.image-group {
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+    .bus__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+        padding: 2em;
+    }
+
+    .bus__img-icon {
+        width: 576px;
+    }
+
+    .bus__title {
+        width: 252px;
+        font-size: 32px;
+        height: 50px;
+    }
+
+    .bus__third-content {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1375px) {
+    .bus__general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bus__second-content {
+        margin-bottom: 30px;
+    }
+
+    .bus__low-content {
+        align-items: center;
+    }
+
+    .bus__container {
+        margin-bottom: 40px;
+    }
+
+    .bus__third-content {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    .bus__first-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .bus__third-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bus__photo-seo {
+        height: 370px;
+        width: 180px;
+        margin-bottom: 30px;
+    }
+    .image-group {
+        margin-left: 0;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .bus__low-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bus__photo {
+        margin-left: 0;
+    }
+
+    .bus__social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bus__description {
+        width: 320px;
+        margin-bottom: 40px;
+    }
+
+    .bus__rocket {
+        top: 160px;
+        right: -55px;
+    }
+
+    .bus__img-icon {
+        width: 320px;
+    }
+
+    .image-man {
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 464px) {
+    .bus__description {
+        width: 220px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bus__second-content {
+        align-items: center;
+    }
+
+    .bus__rocket {
+        width: 60px;
+        right: -10px;
+        top: 266px;
+    }
+
+    .bus__btn {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .bus__title {
+        width: 160px;
+        font-size: 20px;
+       height: 30px;
+    }
+
+    .bus__img-icon {
+        width: 220px;
+    }
+
+    .bus__icon {
+        margin-right: 0;
+    }
+
+    .image-man {
+        width: 220px;
+    }
+
+}
+
+
