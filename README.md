@@ -1,3 +1,3 @@
-Тест для Carrot Quest
+Тестовое задание для Carrot Quest
 
 Link: https://mygatsbytestmaster.gatsbyjs.io/
